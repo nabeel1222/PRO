@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Shooting Stars and Rocket -->
+  <div class="shooting-stars"></div>
+  <div class="rocket-container" id="rocket">
+    <div id="trail-container"></div>
+  </div>
+  <div class="cursor-glow"></div>
+
+  <!-- Floating Background -->
+  <div class="floating"></div>
+  <div class="floating2"></div>
+
+  <!-- HERO Section -->
+  <section class="hero">
+    <h1>
+      <span id="typing"></span><span class="cursor">|</span>
+    </h1>
+    <p>A Future Developer</p>
+    <a href="#contact"><button>Launch 🚀</button></a>
+  </section>
+
+  <!-- ABOUT Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I build modern and interactive websites with cool animations.</p>
+  </section>
+
+  <!-- CONTACT Section -->
+  <section class="contact" id="contact">
+    <div class="container tilt">
+      <h2>Contact Me</h2>
+      <form id="form">
+  <input type="text" id="name" placeholder="Enter your name" required>
+  <input type="email" id="email" placeholder="Enter your Gmail" required>
+  <button type="submit">Submit</button>
+</form>
+      <div id="output"></div>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
