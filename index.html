@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <!-- Use relative path with ./ -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- CDN for particles.js -->
   <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 </head>
 <body>
@@ -41,15 +43,15 @@
     <div class="container tilt">
       <h2>Contact Me</h2>
       <form id="form">
-  <input type="text" id="name" placeholder="Enter your name" required>
-  <input type="email" id="email" placeholder="Enter your Gmail" required>
-  <button type="submit">Submit</button>
-</form>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="email" id="email" placeholder="Enter your Gmail" required>
+        <button type="submit">Submit</button>
+      </form>
       <div id="output"></div>
     </div>
   </section>
 
   <!-- JS -->
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
